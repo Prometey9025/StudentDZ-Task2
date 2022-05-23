@@ -7,7 +7,13 @@
 Ход выполнения задания:
 1) Настроил БД PostgreSQL и подключил её к Intellij IDEA
 2) Создал таблицу студентов
-3) Подключил apachetomcat сервер
-4) Создал файлы конфигурации, модель (Student), StudentDAO для работы с БД, StudentController и файлы представлений
+3) Подключил Apache Tomcat сервер
+4) Создал файлы конфигурации, модель Student, StudentDAO для работы с БД, StudentController и файлы представлений
 
-Использовал технологии: Spring, SpringMVC, JDBC API, PostgreSQL
+Использовал технологии: Spring, SpringMVC, JDBC API, PostgreSQL, Apache Tomcat
+
+Для запуска проекта:
+1) Понадобится настроить и подключить PostgreSQL к среде разработки
+2) Создать таблицу студентов
+3) Настроить Apache Tomcat сервер
+4) Создать файлы конфигурации, модель Student, StudentDAO для работы с БД, StudentController и файлы представлений
