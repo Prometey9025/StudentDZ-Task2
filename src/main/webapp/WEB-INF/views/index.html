@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+<div th:each="student : ${students}">
+
+    <a th:href="@{/students/{id}(id=${student.getStudentid()})}"
+       th:text="${student.getName() + ', ' + student.getSurname() + ',' + student.getPatronymic() + ',' + student.getBirthday() + ',' + student.getStudentgroup()}">StudentInfo</a>
+</div>
+
+<br/>
+<hr/>
+
+<a href="/students/new">Add new student</a>
+
+</body>
+</html>
